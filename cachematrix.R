@@ -1,7 +1,8 @@
-## Put comments here that give an overall description of what your
-## functions do
+## The two functions below are created for the ProgrammingAssignment2 in Coursera
 
-## Write a short comment describing this function
+## makeCacheMatrix - this function creates a 'matrix' list object containing the 
+## setter and getter functions for an input matrix object
+
 
 makeCacheMatrix <- function(x = matrix()) {
         cachmat <- NULL
@@ -22,7 +23,9 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## Write a short comment describing this function
+## cacheSolve - this function tries to return the inverse of the input matrix, first by searching 
+## in the cache files and then (if not found in cache) calculates the inverse of the input matrix 
+## using the solve function
 
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
